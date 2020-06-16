@@ -8,7 +8,7 @@ float promedio(Lista *L){
   float suma=0;
   float promedio;
   
-  for(i=0; i<Fin(L);i++{
+  for(i=0; i<Fin(L);i++){
     auxiliar= Recuperar(i, L);
     suma= suma+auxiliar;
   }
