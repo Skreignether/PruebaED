@@ -2,12 +2,13 @@
 
 float promedio(Lista *L){
   int auxiliar=0;
-  int i;
+  int i,suma;
   
   for(i=0; i<Fin(L);i++{
-    auxiliar+=Recuperar(i, L);
+    auxiliar= Recuperar(i, L);
+    suma= suma+auxiliar;
   }
   
-  return (auxiliar/Fin(L));
+  return (suma/Fin(L));
 
 }
